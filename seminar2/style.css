@@ -1,0 +1,40 @@
+@font-face {
+  font-family: new_font;
+  src: url(fonts/6-font.otf);
+}
+
+body {
+  width: 50%;
+  margin: auto;
+  background-color: aquamarine;
+}
+
+h1 {
+  font-family: new_font, sans-serif;
+  color: deeppink;
+}
+
+h2 {
+  color: rgb(176, 140, 208);
+}
+a {
+  color: darkgreen;
+}
+
+img {
+  margin-left: 50px;
+  border: 5px solid red;
+  width: 300px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.big_text {
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: red;
+}

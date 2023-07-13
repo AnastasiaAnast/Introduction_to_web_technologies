@@ -10,3 +10,5 @@ function Greeting() {
 
 Grettings();
 console.log(msg);
+
+// или Grettings(msg); ?

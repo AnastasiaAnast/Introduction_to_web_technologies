@@ -1,0 +1,9 @@
+ <!-- <?xml version="1.0" encoding="UTF-8"?> --> столкнулась с проблемой: без первой строчки jsonformatter.org отдает корректные значения в столбце "XML to JSON", а при возвращении данной строки - null
+ <user>
+    <name>"Иван"</name>
+    <surname>"Иванов"</surname>
+    <patronymic>"Иванович"</patronymic>
+    <age>30</age>
+    <birthplace>"Москва"</birthplace>
+    <phone>"+7 926 766 48 48"</phone>
+</user>

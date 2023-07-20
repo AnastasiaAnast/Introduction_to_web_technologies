@@ -1,14 +1,12 @@
+"use strict";
+
 // Cоздать функцию greeting, которая принимает в качестве аргумента имя человека и выводит приветствие, используя переданное ей имя, в консоль.
 // Необходимо у пользователя запросить имя и вызвать функцию greeting, передав туда полученное от пользователя значение.
 
-"use strict";
-function Greeting() {
-  let name = prompt("Введите Ваше имя: ");
-  msg = "Привет, ${name}";
-  alert(msg);
+const name = prompt(`Введите Ваше имя: `);
+greeting(name);
+
+function greeting() {
+  const msg = `Привет, ${name}`;
+  console.log(msg);
 }
-
-Grettings();
-console.log(msg);
-
-// или Grettings(msg); ?
